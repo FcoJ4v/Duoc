@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-icon (click)="close()" slot="end" name="close-outline"></ion-icon> 
+    <ion-title>informacion</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card *ngFor="let i of dataModal">
+    <h3>Modelo: {{i.modelo}}</h3>
+    <h3>Patente: {{i.patente}}</h3>
+    <h3>Año: {{i.anio}}</h3>
+    <h3>Color: {{i.color}}</h3>
+    <h3>Marca: {{i.marca}}</h3>
+  </ion-card>
+</ion-content>

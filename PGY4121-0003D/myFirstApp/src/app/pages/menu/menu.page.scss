@@ -1,0 +1,33 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+ion-icon{
+    font-size: 50px;
+}
+
+.enabled{
+    background-color: green;
+    color: white;
+}
+
+.disabled{
+    background-color: red;
+    color: white;
+    opacity: 0.5;
+}
+
+
+.skeleton{
+    height: 55px;
+}
+
+.box-skeleton{
+    padding-left: 10px;
+    padding-right: 10px;
+}
